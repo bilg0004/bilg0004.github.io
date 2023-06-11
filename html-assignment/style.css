@@ -1,0 +1,43 @@
+body{
+  font-family: "Calibri", sans-serif;
+  font-size: 18px;
+}
+
+header, footer{
+  background-color: lightgray;
+}
+
+.site-title{
+  color: brown;
+}
+
+#my-image{
+  box-shadow: 0px 0px 2px 1px rgb(0, 0, 0);
+}
+
+.square{
+  list-style-type: square;
+}
+
+.square li:nth-child(odd){
+  background-color:lightgray;
+}
+
+nav a:link {
+  text-decoration: none;
+}
+
+nav a:visited {
+  text-decoration: none;
+}
+
+nav a{
+  background-color: lightgray;
+  border-style:solid;
+  border-color:  blue;  
+  border-radius: 5px; 
+}
+
+nav a:hover{
+  background-color: bisque;
+}
